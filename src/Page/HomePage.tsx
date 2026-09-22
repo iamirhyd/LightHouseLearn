@@ -23,6 +23,22 @@ const HomePage: FC = () => {
             بوت کمپ ها
           </button>
         </div>
+        <div className="flex items-center justify-start gap-8 pt-2">
+          <div className="items-center">
+            <div className="text-2xl font-medium">+۱۲۰۰ </div>
+            <div className="text-sm font-medium opacity-60">دانشجو </div>
+          </div>
+          <div className="h-8 w-px bg-[#E4E4E7]"></div>
+          <div className="items-center">
+            <div className="text-2xl font-medium">+۳۰ </div>
+            <div className="text-sm font-medium opacity-60">دوره </div>
+          </div>
+          <div className="h-8 w-px bg-[#E4E4E7]"></div>
+          <div className="items-center">
+            <div className="text-2xl font-medium">+۸۰ </div>
+            <div className="text-sm font-medium opacity-60">پروژه </div>
+          </div>
+        </div>
       </div>
       <div className=" flex items-start justify-center w-1/2 min-h">
         <img
