@@ -14,7 +14,7 @@ const Navbar: FC = () => {
             className="h-[52px] w-[52px] object-contain"
           />
           <span className="text-lg font-bold text-[#181818] font-manrope">
-            LightHouseLearn
+            LightHouse Learn
           </span>
         </div>
         <div className="hidden items-center gap-6 md:flex">

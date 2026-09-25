@@ -6,7 +6,7 @@ const HomePage: FC = () => {
     <div className="relative flex min-h-screen flex-col items-center overflow-hidden lg:flex-row">
       <div className="pointer-events-none absolute left-[5%] top-[15%] h-[300px] w-[300px] rounded-full bg-[#F5B800]/10 blur-2xl" />
 
-      <div className="pointer-events-none absolute right-[10%] top-[10%] h-[250px] w-[250px] rounded-full bg-[#FFD95A]/10 blur-2xl" />
+      <div className="pointer-events-none absolute right-[10%] top-[10%] h-[250px] w-[250px] rounded-full bg-[#FFD95A]/15 blur-2xl" />
 
       <div className="pointer-events-none absolute bottom-[5%] right-[35%] h-[300px] w-[300px] rounded-full bg-[#F5B800]/8 blur-2xl" />
 
@@ -15,8 +15,11 @@ const HomePage: FC = () => {
           <Compass className="h-4 w-4" />
           <span>مسیر یادگیریت رو روشن کن</span>
         </div>
-        <h1 className="font-bold text-4xl lg:text-5xl">
-          چراغ راهت در مسیر یادگیری
+        <h1 className="font-bold text-4xl lg:text-5xl leading-16">
+          چراغ راهت در مسیر <br />
+          <span className="text-[#F5B800] [text-shadow:0_2px_8px_rgba(245,184,0,0.25)]  ">
+            یادگیری برنامه نویسی
+          </span>
         </h1>
         <p className="text-lg max-w-full lg:max-w-prose font-medium opacity-70">
           بوت‌کمپ‌های تخصصی و پروژه‌محور، دوره‌های برنامه‌نویسی، چالش‌ها و
@@ -48,11 +51,11 @@ const HomePage: FC = () => {
           </div>
         </div>
       </div>
-      <div className=" flex items-start justify-center w-full lg:w-1/2  ">
+      <div className=" flex items-center justify-center w-full mt-20 lg:w-1/2 ">
         <img
           src="./LandingPage-LH.webp"
           alt="LightHouse-3D"
-          className="h-[330px] lg:h-[400px] object-contain"
+          className="h-[380px] lg:h-[500px] object-contain"
         />
       </div>
     </div>
