@@ -1,5 +1,6 @@
 import React, { type FC } from "react";
-import Navbar from "../Components/Navbar";
+import { motion } from "motion/react";
+
 import { Compass } from "lucide-react";
 const HomePage: FC = () => {
   return (
@@ -51,11 +52,48 @@ const HomePage: FC = () => {
           </div>
         </div>
       </div>
-      <div className=" flex items-center justify-center w-full mt-20 lg:w-1/2 ">
-        <img
+
+      <div className=" relative flex items-center justify-center w-full mt-20 lg:w-1/2 ">
+        <motion.img
+          src="./html-logo.webp"
+          alt="HTML"
+          className="absolute right-[5%] lg:right-[18%] top-[8%]  h-20 lg:h-24 w-20 lg:w-24 object-contain drop-shadow-md"
+          animate={{ y: 15 }}
+          transition={{
+            duration: 2,
+            repeat: Infinity,
+            repeatType: "mirror",
+            ease: "easeInOut",
+          }}
+        />
+        <motion.img
+          src="./css-logo.webp"
+          alt="CSS"
+          className="absolute left-[5%] lg:left-[18%] top-[12%] h-20 lg:h-24 w-20 lg:w-24object-contain  drop-shadow-md"
+          animate={{ y: -15 }}
+          transition={{
+            duration: 2,
+            repeat: Infinity,
+            repeatType: "mirror",
+            ease: "easeInOut",
+          }}
+        />
+        <motion.img
           src="./LandingPage-LH.webp"
           alt="LightHouse-3D"
           className="h-[380px] lg:h-[500px] object-contain"
+        />
+        <motion.img
+          src="./javascript-logo.webp"
+          alt="JavaScript"
+          className="absolute right-5 lg:right-[12%] bottom-4  lg:bottom-[5%] h-20 lg:h-24 w-20 lg:w-24 object-contain   drop-shadow-md"
+          animate={{ y: -15 }}
+          transition={{
+            duration: 2,
+            repeat: Infinity,
+            repeatType: "mirror",
+            ease: "easeInOut",
+          }}
         />
       </div>
     </div>
