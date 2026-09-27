@@ -12,3 +12,26 @@ body {
 .font-manrope {
   font-family: "manrope", sans-serif;
 }
+
+/* Scrollbar && Mouse Select */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #f5b800;
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #d99f00;
+}
+
+::selection {
+  background: #f5b800;
+  color: #181818;
+}
