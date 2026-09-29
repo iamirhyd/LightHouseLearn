@@ -41,7 +41,7 @@ const FeaturedCourses = () => {
   ];
 
   return (
-    <div className="bg-white py-16 lg:py-24">
+    <section className="bg-white py-16 lg:py-24">
       <div className="mx-auto mb-8 flex w-full max-w-7xl items-center justify-between px-2">
         <h2 className="text-3xl font-bold leading-tight lg:text-4xl">
           دوره‌های منتخب
@@ -79,7 +79,7 @@ const FeaturedCourses = () => {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
