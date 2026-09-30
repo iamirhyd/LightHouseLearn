@@ -1,4 +1,5 @@
 import FeaturedCourses from "../Components/FeaturedCourses";
+import FinalCTA from "../Components/FinalCTA";
 import Hero from "../Components/Hero";
 import WhatWeOffer from "../Components/WhatWeOffer";
 import WhyLightHouse from "../Components/WhyLightHouse";
@@ -16,6 +17,9 @@ const HomePage = () => {
       </div>
       <div>
         <WhyLightHouse />
+      </div>
+      <div>
+        <FinalCTA />
       </div>
     </>
   );
