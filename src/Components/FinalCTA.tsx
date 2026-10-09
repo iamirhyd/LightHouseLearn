@@ -1,5 +1,3 @@
-import React from "react";
-
 const FinalCTA = () => {
   return (
     <section className="w-full mx-auto  px-5 py-16 md:py-24 text-center">

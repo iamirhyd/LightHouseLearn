@@ -1,5 +1,3 @@
-import React from "react";
-
 const WhyLightHouse = () => {
   return (
     <section className=" w-full py-16 md:py-24">

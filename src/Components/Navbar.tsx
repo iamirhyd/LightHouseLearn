@@ -1,6 +1,5 @@
-import React, { useState, type FC } from "react";
+import { useState, type FC } from "react";
 import { Menu, X } from "lucide-react";
-import { div } from "motion/react-client";
 const Navbar: FC = () => {
   const [open, setOpen] = useState(false);
   const navLinks = ["خانه", "دوره ", "بوت کمپ ", "چالش", "درباره "];
@@ -9,7 +8,7 @@ const Navbar: FC = () => {
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-2">
           <img
-            src="/Logo-black.png"
+            src="./Logo-black.png"
             alt="LightHouseLearn Logo"
             className="h-[52px] w-[52px] object-contain"
           />

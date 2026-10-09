@@ -1,4 +1,4 @@
-import React, { type FC } from "react";
+import { type FC } from "react";
 import { BookOpen, Rocket, Trophy, Code2, ArrowLeft } from "lucide-react";
 const WhatWeOffer: FC = () => {
   return (
